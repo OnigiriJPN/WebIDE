@@ -1,0 +1,34 @@
+/* メイン */
+.tabs {
+  display: flex;
+  background: #333;
+}
+
+.tabs button {
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  color: #ccc;
+}
+
+.tabs button.active {
+  background: #555;
+  color: #fff;
+}
+
+#editor {
+  height: 40vh;
+}
+
+#preview {
+  width: 100%;
+  height: 40vh;
+  border: none;
+}
+
+#errorPanel {
+  height: 20vh;
+  background: #111;
+  color: #f55;
+  overflow: auto;
+}
